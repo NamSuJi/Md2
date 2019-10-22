@@ -161,7 +161,7 @@ void CMd2Dlg::OnBnClickedButton1()
 {
 	CClientDC dc(this);
 	CFont f;
-	f.CreatePointFont(400, L"Arial");
+	f.CreatePointFont(500, L"Arial");
 	dc.SelectObject(&f);
 	CString str = L"I love VC++";
 	dc.TextOutW(0, 0, str);
